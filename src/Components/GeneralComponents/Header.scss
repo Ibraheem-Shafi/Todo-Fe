@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.header__logo {
+  font-size: 24px;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header__nav li {
+  display: inline;
+}
+
+.header__nav li a {
+    color: white;
+    text-decoration: none;
+  }
+
+.header__nav .active {
+  color: white;
+  text-decoration: underline;
+}
+
+.header__login .login-button {
+  padding: 10px 20px;
+  background-color: rgb(8, 125, 172);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header__login .login-button:hover {
+  background-color: rgb(15, 135, 191);
+}
